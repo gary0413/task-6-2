@@ -62,7 +62,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::218138280714:role/task-6-2-role
+          role-to-assume: arn:aws:iam::827072983716:role/task-6-2-role
           aws-region: ${{ env.AWS_REGION }}
           output-credentials: true
 
