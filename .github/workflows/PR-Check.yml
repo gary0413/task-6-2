@@ -4,8 +4,8 @@ on:
   pull_request:
     branches:
       - '**'
-    paths:
-      - 'src/**'
+    #paths:
+    #  - 'src/**'
 
 env:
   BUCKET_NAME: "task-6-2"
